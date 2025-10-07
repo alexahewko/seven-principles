@@ -29,6 +29,20 @@ h2 {
     border-radius: 16px;
 }
 
+h3 {
+    font-size: 28px;
+    background-color:#808000;
+    color: #fdf5e6;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+h4 {font-size: 24px;
+    font-weight: 600;
+    line-height: 80%;
+    letter-spacing: 0.5px;
+}
+
 p {
     font-size: 16px;
 }
@@ -44,8 +58,12 @@ intro-paragraph {
 }
 
 .fancy {
+    color: #808000;
     font-style: italic;
     font-weight: 100;
+    color:#808000;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px #556b2f;
     font-family: "Danfo", serif; ;
 }
 
@@ -55,4 +73,16 @@ a {
     
 }
 
-a:hover {}
+a:hover {
+    color: #808000;
+    font-style: italic;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: disc;
+}
+    
+li::marker {
+  color: #808000;
+}
